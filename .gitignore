@@ -1,0 +1,23 @@
+# داده و پشتیبان: پیام‌ها، مخاطبین، هش رمز و نشست‌ها
+data/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.bak
+*.json
+
+# رازها: SMSGW_TOKEN و هر تنظیم محیطی
+config.env
+*.env
+.env*
+*.pem
+*.key
+*secret*
+*token*
+
+# خروجی ساخت و فایل‌های موقت
+dist/
+__pycache__/
+*.pyc
+*.tmp
